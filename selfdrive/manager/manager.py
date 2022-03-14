@@ -36,10 +36,10 @@ def manager_init():
   params.clear_all(ParamKeyType.CLEAR_ON_MANAGER_START)
 
   default_params = [
-    ("CompletedTrainingVersion", "0"),
-    ("HasAcceptedTerms", "0"),
+    ("CompletedTrainingVersion", "1"),
+    ("HasAcceptedTerms", "1"),
     ("OpenpilotEnabledToggle", "1"),
-    ("IsMetric", "1"),
+    ("IsMetric", "0"),
     ("EndToEndToggle", "1"),
   ]
   if not PC:
